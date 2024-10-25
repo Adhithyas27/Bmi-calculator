@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI calculator</title>
+    <style>
+        
+        header,footer{background-color: aquamarine;height: 200px;}
+        .font{font-size:25px;}
+    </style>
+</head>
+<center>
+<body>
+    <header><h1>BMI CALCULATOR</h1></header>
+    <div>
+        <br><br><br><br><br><br>
+        <label class="font" for="hh">height (in meter)</label>
+        <input id="h" type="text" required pattern="[0-9]+(\.[0-9]+)?" id="hh">
+        <br><br>
+        <label class="font" for="ww">weight (in kg)</label>
+        <input id="w" type="text" required pattern="[0-9]+(\.[0-9]+)?" id="ww">
+        <br><br><br><br>
+        <button onclick="bmi()">Click here</button>
+        <br><br>
+        <p class="font"></p>
+        <br><br>
+        
+    </div>
+    <script src="./hell.js"></script>
+</body>
+<footer style="height: 100px">
+    <p>©Adithya bmi calculator.all rights reserved</p>
+</footer>
+</center>
+</html>
